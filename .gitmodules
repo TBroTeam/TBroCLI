@@ -1,3 +1,0 @@
-[submodule "src/shared/libs/smarty"]
-	path = src/shared/libs/smarty
-	url = git@github.com:smarty-php/smarty.git
