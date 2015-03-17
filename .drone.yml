@@ -1,0 +1,6 @@
+image: phryneas/tbro_cli_test:latest
+script: 
+  - echo "$(pwd)"
+  - cd tests; ./*.bats
+git:
+  depth: 1
