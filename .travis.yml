@@ -14,8 +14,8 @@ install:
     - pear install -a propel/propel_runtime
     - pear install Log
     - pear install Console_CommandLine
-      #- pear install Console_Table
+    - pear install Console_Table
     - pear install channel://pear.php.net/Console_ProgressBar-0.5.2beta
     - echo 'phar.readonly = Off' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
-    - ALLOW_DROP_DATABASE="yes" tests/reset-db.sh
-script: ALLOW_DROP_DATABASE="yes" BATS_BINARY=${HOME}/bats/bin/bats tests/run-scripts.sh
+    - phpenv rehash
+script: ALLOW_DROP_DATABASE="" ${HOME}/bats/bin/bats tests

@@ -1,5 +1,7 @@
 image: phryneas/tbro_cli_test:latest
 script: 
-  - tests/run-scripts.sh
+  - ALLOW_DROP_DATABASE="" /usr/bin/bats tests
 git:
   depth: 1
+services:
+    - phryneas/drone_postgres-9.3
