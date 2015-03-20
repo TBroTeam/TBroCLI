@@ -1,4 +1,5 @@
 * TBroCLI
 Command line tools for TBro
 
-* [[https://travis-ci.org/TBroTeam/TBroCLI.svg]]
+Build status
+[[https://travis-ci.org/TBroTeam/TBroCLI][https://travis-ci.org/TBroTeam/TBroCLI.svg]]
