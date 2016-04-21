@@ -1,4 +1,6 @@
 * TBroCLI
+*This repository is currently not in use (see [[https://github.com/TBroTeam/TBroCLI/issues/4][#4]])*
+
 Command line tools for TBro
 
 Build status
